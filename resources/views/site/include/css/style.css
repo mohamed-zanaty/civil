@@ -1,0 +1,950 @@
+/*
+ * https://material.io/icons/
+ */
+
+@font-face {
+    font-family: 'dr';
+    src: url('../fonts/DinNextRegular.eot');
+    src: url('../fonts/DinNextRegular.eot') format('embedded-opentype'), url('../fonts/DinNextRegular.woff2') format('woff2'), url('../fonts/DinNextRegular.woff') format('woff'), url('../fonts/DinNextRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'dm';
+    src: url('../fonts/DinNextMedium.eot');
+    src: url('../fonts/DinNextMedium.eot') format('embedded-opentype'), url('../fonts/DinNextMedium.woff2') format('woff2'), url('../fonts/DinNextMedium.woff') format('woff'), url('../fonts/DinNextMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'dl';
+    src: url('../fonts/DinNextLight.eot');
+    src: url('../fonts/DinNextLight.eot') format('embedded-opentype'), url('../fonts/DinNextLight.woff2') format('woff2'), url('../fonts/DinNextLight.woff') format('woff'), url('../fonts/DinNextLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'db';
+    src: url('../fonts/DinNextBold.eot');
+    src: url('../fonts/DinNextBold.eot') format('embedded-opentype'), url('../fonts/DinNextBold.woff2') format('woff2'), url('../fonts/DinNextBold.woff') format('woff'), url('../fonts/DinNextBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+html {
+    direction: rtl;
+}
+
+body {
+    font-family: 'dr';
+    background:#000 url('../../images/bg.jpg') no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'db';
+}
+
+header {
+    border-bottom: 1px solid #333333;
+    padding: 35px 0;
+    background-color: rgba(0,0,0,.3);
+}
+.logo {
+    overflow: hidden;
+}
+.logo img {
+    height: auto;
+    max-width: 95%;
+}
+.social {
+    text-align: left;
+}
+.social a {
+    color: #fff;
+    display: inline-block;
+    margin: 35px 10px 0;
+    transition: all 0.5s ease 0s;
+    font-size: 17px;
+}
+.social a:hover {
+    color: #4a853a;
+    transform: rotate(360deg);
+    transform-origin: center center 0;
+}
+.slider, .contactpage, .gbapage, .page {
+    margin: 100px 0;
+    overflow: hidden;
+}
+.contactpage, .gbapage, .page {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 25px;
+    min-height: 400px;
+}
+.owl1 .owl1co {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color: #fff;
+    direction: rtl;
+    margin: auto;
+    text-align: center;
+    width: 55%;
+    padding-bottom: 60px;
+}
+.owl1 .owl1co h3 {
+    font-size: 16px;
+    padding: 50px 10px 15px;
+}
+.owl1 .owl1co p {
+    font-size: 13px;
+    line-height: 26px;
+    margin: 0 50px;
+}
+.owl1 .owl-buttons div {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 28px;
+    height: 50px;
+    padding-top: 3px;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    transition: all 0.5s ease 0s;
+    width: 50px;
+}
+.owl1 .owl-buttons div.owl-next {
+    left: 12%;
+}
+.owl1 .owl-buttons div.owl-prev {
+    right: 10%;
+}
+.owl1 .owl-buttons div:hover {
+    background-color: #4c9832;
+}
+.nav1 li {
+    display: inline-block;
+}
+.nav1 li a {
+    color: #fff;
+    display: inline-block;
+    padding: 3px 34px;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    padding: 39px 0 50px;
+    text-align: center;
+}
+footer {
+    border-top: 1px solid #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    direction: ltr;
+    background-color: rgba(0,0,0,.3);
+}
+.nav1 li a i {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 16px;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+.nav1 li a span {
+    font-family: dm;
+    font-size: 16px;
+    transition: all 0.5s ease 0s;
+}
+.nav1 li a:hover {
+    color: #449531;
+}
+.nav1 li a:hover i {
+    color: #fff;
+    transform: rotate(360deg);
+}
+
+
+.mtitle {
+    color: #488e36;
+    margin-bottom: 44px;
+    margin-right: 35px;
+}
+.contactaddrr a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.contactaddr {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.maplocation {
+    background-color: #fff;
+    border-radius: 5px;
+    height: 111px;
+    width: 100%;
+}
+.contactitem input, .contactitem textarea {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    transition: all .5s;
+}
+.contactitem input:focus, .contactitem textarea:focus{
+  border-color: #459532;
+}
+.contactitem textarea {
+    resize: vertical;
+}
+.contactaddrr a i {
+    color: #459532;
+    display: inline-block;
+    width: 22px;
+}
+.contactaddrr a span {
+    direction: ltr;
+    display: inline-block;
+}
+.contactitem button {
+    background-color: #488e36;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-family: dm;
+    padding: 12px 20px;
+    transition: all 0.5s ease 0s;
+}
+.contactitem button i {
+    margin-left: 6px;
+    transition: all 0.5s ease 0s;
+}
+.contactitem button:hover {
+    box-shadow: 0 43px 0 #357b23 inset;
+    cursor: pointer;
+}
+.gbaitem{
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.gbaitem input, .gbaitem select {
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 9px;
+    text-align: center;
+    width: 100%;
+}
+.gbaitem select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    background: #fff url('../../images/selectarrow.png') no-repeat 10% 56%;
+}
+.gbaitem select:disabled{
+  background-color: #a0a0a0;
+}
+
+.gbaoptions {
+    margin-top: 60px;
+    overflow: hidden;
+}
+.gbacalc span {
+    display: block;
+    margin-bottom: 18px;
+}
+.gbacalc span label {
+    color: #fff;
+    display: inline-block;
+    font-family: dm;
+    width: 113px;
+}
+.gbacalc span input {
+    border: medium none;
+    border-radius: 3px;
+    padding: 7px;
+    text-align: center;
+}
+.gbacalc span button {
+    background-color: #469433;
+    border: medium none;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-family: dm;
+    margin-right: 21px;
+    padding: 9px 16px;
+    transition: all 0.5s ease 0s;
+}
+.gbacalc span button:hover {
+    box-shadow: 60px 0 0 #1c6a09 inset;
+}
+
+.addmateria {
+    background-color: #4b843b;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-family: dr;
+    font-size: 13px;
+    margin-right: 8px;
+    padding: 8px 11px;
+    transition: all 0.5s ease 0s;
+}
+.addmateria:hover {
+    background-color: #999;
+}
+
+.pageco {
+    overflow: hidden;
+}
+.pageco img {
+    height: auto;
+    max-width: 100%;
+}
+.pageco {
+    color: #fff;
+    font-size: 13px;
+    min-height: 500px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.gallary_item {
+    border: 6px solid #4e4959;
+    height: 237px;
+    margin: auto auto 20px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.gallary_item > a {
+    background-color: rgba(72, 142, 53, 0.6);
+    color: #fff;
+    font-family: dm;
+    height: 237px;
+    opacity: 0;
+    padding-top: 41%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.gallary_item > a i {
+    display: block;
+    font-size: 23px;
+    margin-bottom: 6px;
+}
+.gallary_item:hover > a {
+    opacity: 1;
+}
+
+.gallarymask {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    overflow: hidden;
+    display: none;
+}
+.owl2{
+    margin: 10% auto;
+    width: 50%;
+}
+.owl2 .item {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+.owl2 .owl-buttons div {
+    background-color: rgb(70, 148, 51);
+    font-size: 26px;
+    height: 45px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 30%;
+    width: 45px;
+    border-radius: 3px;
+    padding-top: 2px;
+    color:#fff;
+    transition: all 0.5s;
+}
+.owl2 .owl-buttons div:hover{
+  background-color: #085600;
+}
+
+.owl2 .owl-buttons div.owl-next {
+    left: 0;
+}
+
+.gmclose {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    left: 0;
+    margin: 43px auto auto;
+    padding-top: 6px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    width: 30px;
+}
+.gmclose:hover {
+    color: #666;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
+.owl2 .item img {
+    height: auto;
+    max-width: 80%;
+    border-radius: 5px;
+}
+
+.news_item img {
+    border: 3px solid #4e4959;
+    height: 170px;
+    width: 100%;
+    transition: all .5s;
+}
+.news_item:hover img{
+  border-color: #449531;
+}
+.news_item {
+    border-bottom: 1px solid #2a2a2a;
+    margin-bottom: 23px;
+    overflow: hidden;
+    padding-bottom: 29px;
+}
+.news_item h3 {
+    color: #fff;
+    font-size: 14px;
+    transition: all .5s;
+}
+.news_item:hover h3{
+  color: #449531;
+}
+.news_item p {
+    color: #fff;
+    font-size: 13px;
+    line-height: 23px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+.news_item span {
+    color: #459432;
+    font-size: 12px;
+}
+
+.programbtn {
+    background-color: #42922f;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-family: dm;
+    padding: 5px 10px 9px;
+    transition: all 0.5s ease 0s;
+}
+.programbtn:hover {
+    background-color: #ddd;
+    color: #666;
+}
+
+.news_item:last-child {
+    border: medium none;
+}
+
+.sync3 .item > img {
+    border-radius: 4px;
+    height: 400px;
+    width: 100%;
+}
+.sync4 .item > img {
+    height: 100px;
+    width: 100%;
+}
+.sync4 .item {
+    margin: 0 5px;
+}
+.sync4 {
+    margin: auto;
+    width: 90%;
+}
+.sync4 {
+    position: relative;
+}
+.sync3 owl-buttons {
+}
+.projects {
+    overflow: hidden;
+    position: relative;
+}
+.sync3 .owl-buttons div {
+    background-color: #160d33;
+    bottom: -116px;
+    color: #fff;
+    font-size: 27px;
+    height: 100px;
+    padding-top: 24px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    width: 51px;
+}
+.sync3 {
+    margin-bottom: 15px;
+}
+.sync3 .owl-buttons div.owl-next {
+    left: 0;
+}
+.sync3 .owl-buttons div:hover {
+    background-color: #3c3359;
+}
+
+.sync4 .synced img {
+    border: 2px solid #534a70;
+    opacity: 0.5;
+    position: relative;
+    top: -5px;
+}
+
+.sync3 .item {
+    position: relative;
+}
+.sync3 .item .projectdesc {
+    background-color: rgba(24, 13, 53, 0.5);
+    bottom: 0;
+    direction: rtl;
+    display: block;
+    padding: 13px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    transition: all .5s;
+}
+
+.sync3 .item:hover .projectdesc {
+    background-color: rgba(24, 13, 53, 1);
+}
+.sync3 .item .projectdesc h3 {
+    color: #fff;
+    font-size: 16px;
+    margin: 0 0 16px;
+}
+.sync3 .item .projectdesc p {
+    color: #fff;
+}
+
+.snav {
+    color: #449531 !important;
+}
+
+.news-img {
+    float: right;
+    height: 240px;
+    margin: 14px 0 10px 15px;
+    width: 260px;
+}
+.pag{
+  overflow: hidden;
+  display: block;
+  width:100%;
+}
+
+.owl2desc {
+    color: #fff;
+    left: 0;
+    margin: 86px auto auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+.close_gbaitem {
+    color: #488e36;
+    cursor: pointer;
+    font-size: 11px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    transition: all 0.5s ease 0s;
+}
+.close_gbaitem:hover {
+    color: #f00;
+}
+
+.gallaryco {
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.gbaoptions2 .gbacalc span label {
+    margin-left: 14px;
+    width: 200px;
+}
+.gbaoptions2 {
+    margin-bottom: 23px;
+    margin-right: 25px;
+}
+
+.mform2 {
+    border-top: 1px solid;
+    clear: both;
+    overflow: hidden;
+    padding-top: 55px;
+}
+.mform2 input + label {
+    margin-right: 14px;
+}
+.mform2 h2 {
+    color: #fff;
+    font-size: 15px;
+    margin: 32px 0;
+}
+
+
+.downloadlist li a {
+    background: url('../../images/sbg.png') repeat;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: db;
+    margin-bottom: 5px;
+    padding: 15px;
+    transition: all 0.5s ease 0s;
+}
+.downloadlist li a i{
+  display: inline-block;
+  margin-left: 5px;
+}
+.downloadlist li a.dact {
+    background: url('../../images/sbg1.jpg') repeat;
+    color:#666;
+}
+.downloadlist ul {
+    padding: 0;
+}
+.downloadlist li {
+    list-style: outside none none;
+    display: inline-block;
+}
+.downloadlist li a:hover {
+    text-indent: 10px;
+}
+.downloadlist li > ul {
+    display: none;
+}
+.loader{
+  width:24px;
+  height: 24px;
+  display: inline-block;
+  background: url('../../images/load.gif') no-repeat;
+}
+
+.downloadview {
+    border: 1px solid #1b1b1b;
+    border-radius: 4px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.dmainview {
+    overflow: hidden;
+}
+.dmainview-item {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.dmainview-item img {
+    border-radius: 5px;
+    height: auto;
+    max-width: 85%;
+}
+
+.submainview-item {
+    display: inline-block;
+    height: 80px;
+    margin: 4px;
+    overflow: hidden;
+    width: 110px;
+    border: 1px solid #252525;
+}
+.submainview-item img {
+    height: 80px;
+    width: 100%;
+    border-radius: 5px;
+}
+.submainview {
+    overflow: hidden;
+    text-align: center;
+}
+
+.dbtn {
+    background-image: url('../../images/sbg.png');
+    background-repeat: repeat;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-family: dm;
+    font-size: 16px;
+    margin-bottom: 50px;
+    padding: 17px 0;
+    text-align: center;
+    transition: all .5s;
+}
+.dbtn:hover {
+    background-image: url('../../images/sbg1.jpg');
+    color: #666;
+}
+.tree {
+  overflow-x: auto;
+  direction: ltr;;
+}
+.tree ul {
+  padding-top: 20px;
+  position: relative;
+  white-space: nowrap;
+}
+.tree li {
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: top;
+  margin: 0 -2px;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 20px 5px 0;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+}
+/*We will use ::before and ::after to draw the connectors*/
+.tree li::before,.tree li::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-top: 1px solid #ccc;
+  width: 50%;
+  height: 20px;
+}
+.tree li::after {
+  right: auto;
+  left: 50%;
+  border-left: 1px solid #ccc;
+}
+/*We need to remove left-right connectors from elements without any siblings*/
+.tree li:only-child::after,.tree li:only-child::before {
+  display: none;
+}
+/*Remove space from the top of single children*/
+.tree li:only-child {
+  padding-top: 0;
+}
+/*Remove left connector from first child and
+right connector from last child*/
+.tree li:first-child::before,.tree li:last-child::after {
+  border: 0 none;
+}
+/*Adding back the vertical connector to the last nodes*/
+.tree li:last-child::before {
+  border-right: 1px solid #ccc;
+  border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after {
+  border-radius: 5px 0 0 0;
+}
+/*Time to add downward connectors from parents*/
+.tree ul ul::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 1px solid #ccc;
+  width: 0;
+  height: 20px;
+}
+.tree li a {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #fff;
+  font-family: dr;
+  font-size: 12px;
+  display: inline-block;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: url('../../images/sbg.png') repeat;
+  transition: all .5s;
+}
+/*Time for some hover effects*/
+/*We will apply the hover effect the the lineage of the element also*/
+.tree li a:hover,.tree li a:hover+ul li a {
+  background: #fff;
+  color: #666;
+  border: 1px solid #ddd;
+}
+/*Connector styles on hover*/
+.tree li a:hover+ul li::after,.tree li a:hover+ul li::before,.tree li a:hover+ul::before {
+  border-color: #94a0b4;
+}
+
+.downloadlist {
+    margin-bottom: 25px;
+}
+
+
+@media(max-width: 1050px){
+
+.nav1 li a {
+    padding: 3px 20px;
+}
+
+}
+@media(max-width: 800px){
+
+.social {
+    text-align: center;
+}
+.owl1 .owl1co {
+    width: 90%;
+}
+.slider, .contactpage, .gbapage, .page {
+    margin: 20px 0;
+}
+.owl1 .owl-buttons div {
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+}
+.owl1 .owl1co h3 {
+    font-size: 12px;
+    line-height: 23px;
+}
+.owl1 .owl1co p {
+    font-size: 12px;
+    margin: 0 18px;
+    text-align: justify;
+}
+.nav1 li a {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-bottom: 11px;
+    padding: 17px 0;
+}
+.nav1 li {
+    width: 49%;
+}
+.nav1 {
+}
+.nav1 ul {
+    margin: 0;
+    padding: 0;
+}
+.nav1 li a span {
+    font-size: 13px;
+}
+.copy {
+    font-size: 10px;
+}
+
+.pagination > li > a, .pagination > li > span {
+    font-size: 10px;
+    padding: 3px 7px;
+}
+
+.gbacalc span input {
+    width: 70%;
+}
+.gbacalc span button {
+    margin: 0;
+    padding: 7px 8px;
+}
+.addmateria {
+    margin-right: 1px;
+    margin-top: 14px;
+}
+
+.gbacalc span label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.gallary_item {
+    height: 200px;
+}
+.gallaryco {
+    margin-top: 30%;
+    overflow: hidden;
+}
+.owl2 {
+    width: 100%;
+}
+.owl2 .owl-buttons div {
+    font-size: 14px;
+    height: 25px;
+    width: 25px;
+}
+
+.maplocation {
+    height: 180px;
+    margin-top: 26px;
+}
+
+.mtitle {
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+
+.news-img {
+    height: auto;
+}
+
+.downloadlist li a {
+    font-family: dr;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+}
+.downloadlist li {
+    display: block;
+}
+.owl1 .owl-buttons div{
+    top:9%;
+}
+}

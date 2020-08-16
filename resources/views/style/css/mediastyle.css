@@ -1,0 +1,110 @@
+
+.mediacenter {
+    background-color: #f8f8f8;
+    border: 1px solid #979797;
+    border-radius: 10px;
+    height: 500px;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    width: 500px;
+    z-index: 9999;
+    padding: 15px;
+    display: none;
+}
+.mediacenter-imagesco li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 10px 25px;
+}
+.mediacenter-imagesco {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px 10px;
+    width: 100%;
+}
+.mediacenter-imagesco li img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: 150px;
+    opacity: 0.6;
+    padding: 5px;
+    transition: all 0.5s ease 0s;
+    width: 150px;
+    position: relative;
+    z-index: 6;
+}
+
+.mediacenter-imagesco li a span {
+    color: #b7b7b7;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 40%;
+    width: 100%;
+    z-index: 5;
+}
+
+.mediacenter-imagesco li img:hover{
+  opacity: 1;
+}
+.mediacenter-images > h3 {
+    font-family: dm;
+    text-align: center;
+}
+.mediacenter-imagesco li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.mediacenter-uploader {
+    margin: 25px 0 10px;
+    overflow: hidden;
+    width: 100%;
+}
+.mediacenter-uploader .image {
+  margin-bottom: 10px;
+}
+  .mediacenter-uploader .progress {
+    margin-top: 10px;
+}
+
+.mediaclose {
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+.mediaclose:hover {
+    color: #e60000;
+}
+
+.mediabtns {
+    padding: 10px 0 20px;
+    text-align: center;
+}
+.mediabtns button:hover {
+    transition: all 0.5s ease 0s;
+}
+
+.mediahint {
+    color: #c7c7c7;
+    display: block;
+    font-size: 12px;
+    position: relative;
+    top: 14px;
+}
+.mediainput{
+  margin-bottom: 10px;
+}
+.mediainsert, .mediastart, .mediainput,.progress{
+  display: none;
+}
