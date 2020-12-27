@@ -8,16 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content=" 2017 © YEAR SOLUTIONS ">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ADMINSTYLE}}/assets//images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('style/assets//images/favicon.png')}}">
     <title>{{$set->sitename}} @if(isset($title)) :: {{$title}} @endif</title>
     <!-- Bootstrap Core CSS -->
-    <link href="{{ADMINSTYLE}}/assets//plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ADMINSTYLE}}/assets//plugins/bootstrap-rtl-master/dist/css/custom-bootstrap-rtl.css" rel="stylesheet">
+    <link href="{{asset('style/assets//plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('style/assets//plugins/bootstrap-rtl-master/dist/css/custom-bootstrap-rtl.css')}}" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="{{ADMINSTYLE}}/css/style.css" rel="stylesheet">
-    <link href="{{ADMINSTYLE}}/css/main.css" rel="stylesheet">
+    <link href="{{asset('style/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('style/css/main.css')}}" rel="stylesheet">
     <!-- You can change the theme colors from here -->
-    <link href="{{ADMINSTYLE}}/css/colors/red.css" id="theme" rel="stylesheet">
+    <link href="{{asset('style/css/colors/red.css')}}" id="theme" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -73,24 +73,24 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="{{ADMINSTYLE}}/assets//plugins/jquery/jquery.min.js"></script>
+    <script src="{{asset('style/assets//plugins/jquery/jquery.min.js')}}"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="{{ADMINSTYLE}}/assets//plugins/bootstrap/js/tether.min.js"></script>
-    <script src="{{ADMINSTYLE}}/assets//plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="{{asset('style/assets//plugins/bootstrap/js/tether.min.js')}}"></script>
+    <script src="{{asset('style/assets//plugins/bootstrap/js/bootstrap.min.js')}}"></script>
     <!-- slimscrollbar scrollbar JavaScript -->
-    <script src="{{ADMINSTYLE}}/js/jquery.slimscroll.js"></script>
+    <script src="{{asset('style/js/jquery.slimscroll.js')}}"></script>
     <!--Wave Effects -->
-    <script src="{{ADMINSTYLE}}/js/waves.js"></script>
+    <script src="{{asset('style/js/waves.js')}}"></script>
     <!--Menu sidebar -->
-    <script src="{{ADMINSTYLE}}/js/sidebarmenu.js"></script>
+    <script src="{{asset('style/js/sidebarmenu.js')}}"></script>
     <!--stickey kit -->
-    <script src="{{ADMINSTYLE}}/assets//plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="{{asset('style/assets//plugins/sticky-kit-master/dist/sticky-kit.min.js')}}"></script>
     <!--Custom JavaScript -->
-    <script src="{{ADMINSTYLE}}/js/custom.js"></script>
+    <script src="{{asset('style/js/custom.js')}}"></script>
     <!-- ============================================================== -->
     <!-- Style switcher -->
     <!-- ============================================================== -->
-    <script src="{{ADMINSTYLE}}/assets//plugins/styleswitcher/jQuery.style.switcher.js"></script>
+    <script src="{{asset('style/assets//plugins/styleswitcher/jQuery.style.switcher.js')}}"></script>
 </body>
 
 </html>

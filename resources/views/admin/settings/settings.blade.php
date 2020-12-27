@@ -2,9 +2,9 @@
 
 @section('header')
 
-<link href="{{ADMINSTYLE}}/assets/plugins/icheck/skins/all.css" rel="stylesheet">
-<link href="{{ADMINSTYLE}}/assets/plugins/dropify/dist/css/dropify.min.css" rel="stylesheet">
-<link href="{{ADMINSTYLE}}/assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.css" rel="stylesheet" />
+<link href="{{asset('style/assets/plugins/icheck/skins/all.css')}}" rel="stylesheet">
+<link href="{{asset('style/assets/plugins/dropify/dist/css/dropify.min.css')}}" rel="stylesheet">
+<link href="{{asset('style/assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.css')}}" rel="stylesheet" />
 @stop
 
 @section('main')
@@ -111,11 +111,11 @@
 
 
 @section('footer')
-<script src="{{ADMINSTYLE}}/assets/plugins/ckeditor/ckeditor.js"></script>
-<script src="{{ADMINSTYLE}}//assets/plugins/icheck/icheck.min.js"></script>
-<script src="{{ADMINSTYLE}}//assets/plugins/icheck/icheck.init.js"></script>
-<script src="{{ADMINSTYLE}}/assets/plugins/dropify/dist/js/dropify.min.js"></script>
-<script src="{{ADMINSTYLE}}/assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
+<script src="{{asset('style/assets/plugins/ckeditor/ckeditor.js')}}"></script>
+<script src="{{asset('style/assets/plugins/icheck/icheck.min.js')}}"></script>
+<script src="{{asset('style/assets/plugins/icheck/icheck.init.js')}}"></script>
+<script src="{{asset('style/assets/plugins/dropify/dist/js/dropify.min.js')}}"></script>
+<script src="{{asset('style/assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js')}}"></script>
 <script>
     $(document).ready(function() {
         // Basic

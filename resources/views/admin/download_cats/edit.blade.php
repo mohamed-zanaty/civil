@@ -1,8 +1,8 @@
 @extends(ADMIN.'.index')
 
 @section('header')
-<link href="{{ADMINSTYLE}}/assets/plugins/icheck/skins/all.css" rel="stylesheet">
-<link href="{{ADMINSTYLE}}/assets/plugins/dropify/dist/css/dropify.min.css" rel="stylesheet">
+<link href="{{asset('style/assets/plugins/icheck/skins/all.css')}}" rel="stylesheet">
+<link href="{{asset('style/assets/plugins/dropify/dist/css/dropify.min.css')}}" rel="stylesheet">
 @stop
 
 
@@ -20,7 +20,7 @@
               <label class="clabel">{{trans('admin.image')}}</label>
               <input type="file" name="image" class="dropify" data-default-file="{{UPLOAD}}/{{$result->image}}" />
           </div>
-          <div class="form-group m-b-40"> 
+          <div class="form-group m-b-40">
               <textarea name="code" class="form-control input-sm">{{$result->code}}</textarea>  <span class="bar"></span>
               <label for="input8">كود الخطة</label>
           </div>
@@ -35,12 +35,11 @@
 
 
 @stop
-
 @section('footer')
-<script src="{{ADMINSTYLE}}/assets/plugins/ckeditor/ckeditor.js"></script>
-<script src="{{ADMINSTYLE}}//assets/plugins/icheck/icheck.min.js"></script>
-<script src="{{ADMINSTYLE}}//assets/plugins/icheck/icheck.init.js"></script>
-<script src="{{ADMINSTYLE}}/assets/plugins/dropify/dist/js/dropify.min.js"></script>
+<script src="{{asset('style/assets/plugins/ckeditor/ckeditor.js')}}"></script>
+<script src="{{asset('style/assets/plugins/icheck/icheck.min.js')}}"></script>
+<script src="{{asset('style/assets/plugins/icheck/icheck.init.js')}}"></script>
+<script src="{{asset('style/assets/plugins/dropify/dist/js/dropify.min.js')}}"></script>
 <script>
     $(document).ready(function() {
         // Basic

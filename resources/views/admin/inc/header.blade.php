@@ -11,16 +11,16 @@
 
     <title>{{$set->sitename}} @if(isset($title)) :: {{$title}} @endif</title>
     <!-- Bootstrap Core CSS -->
-    <link href="{{ADMINSTYLE}}/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ADMINSTYLE}}/assets/plugins/bootstrap-rtl-master/dist/css/custom-bootstrap-rtl.css" rel="stylesheet">
+    <link href="{{asset('style/assets/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('style/assets/plugins/bootstrap-rtl-master/dist/css/custom-bootstrap-rtl.css')}}" rel="stylesheet">
     <!-- Custom CSS -->
     @yield('header')
 
-    <link href="{{ADMINSTYLE}}/css/style.css" rel="stylesheet">
-    <link href="{{ADMINSTYLE}}/css/main.css" rel="stylesheet">
-    <link href="{{ADMINSTYLE}}/css/mediastyle.css" rel="stylesheet">
+    <link href="{{asset('style/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('style/css/main.css')}}" rel="stylesheet">
+    <link href="{{asset('style/css/mediastyle.css')}}" rel="stylesheet">
     <!-- You can change the theme colors from here -->
-    <link href="{{ADMINSTYLE}}/css/colors/red.css" id="theme" rel="stylesheet">
+    <link href="{{asset('style/css/colors/red.css')}}" id="theme" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -139,13 +139,13 @@
                                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                             <div class="carousel-inner" role="listbox">
                                                 <div class="carousel-item active">
-                                                    <div class="container"> <img class="d-block img-fluid" src="{{ADMINSTYLE}}/assets/images/big/img1.jpg" alt="First slide"></div>
+                                                    <div class="container"> <img class="d-block img-fluid" src="{{asset('style/')}}/assets/images/big/img1.jpg" alt="First slide"></div>
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <div class="container"><img class="d-block img-fluid" src="{{ADMINSTYLE}}/assets/images/big/img2.jpg" alt="Second slide"></div>
+                                                    <div class="container"><img class="d-block img-fluid" src="{{asset('style/')}}/assets/images/big/img2.jpg" alt="Second slide"></div>
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <div class="container"><img class="d-block img-fluid" src="{{ADMINSTYLE}}/assets/images/big/img3.jpg" alt="Third slide"></div>
+                                                    <div class="container"><img class="d-block img-fluid" src="{{asset('style/')}}/assets/images/big/img3.jpg" alt="Third slide"></div>
                                                 </div>
                                             </div>
                                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>

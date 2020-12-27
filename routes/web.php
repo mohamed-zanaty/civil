@@ -15,11 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 
 define('ADMINPATH', url('resources/views/admin'));
-define('ADMINSTYLE', url('resources/views/style'));
 define('SITEPATH', url('resources/views/site'));
 define('UPLOADPATH', base_path('uploads'));
 define('UPLOAD', url('uploads'));
-define('THEME', url('resources/views/site'));
 define('UPLOADPATTERN', 'jpeg,jpg,png,bmp,pdf');
 define('ADMIN', 'admin');
 define('SITE', 'site');
@@ -110,4 +108,5 @@ Route::group(['middleware' => ['auth:admin']], function(){
     Route::post('uploader', 'HomeController@Uploader');
 
 });
+
 

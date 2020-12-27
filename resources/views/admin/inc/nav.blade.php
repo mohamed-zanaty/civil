@@ -7,7 +7,7 @@
         <!-- User profile -->
         <div class="user-profile">
             <!-- User profile image -->
-            <div class="profile-img"> <img src="{{ADMINSTYLE}}//images/avatar.png" alt="user" /> </div>
+            <div class="profile-img"> <img src="{{asset('style/images/avatar.png')}}" alt="user" /> </div>
             <!-- User profile text-->
             <div class="profile-text"> <a href="#" class="dropdown-toggle link u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
               حسابى <span class="caret"></span></a>

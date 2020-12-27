@@ -8,13 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{$set->desc}}" />
     <meta name="keywords" content="{{$set->tags}}" />
-    <link rel="stylesheet" href="{{THEME}}/include/css/bootstrap.css">
-    <link rel="stylesheet" href="{{THEME}}/include/css/font-awesome.css">
+    <link rel="stylesheet" href="{{asset('include/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{asset('include/css/font-awesome.css')}}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="{{THEME}}/include/css/normalize.css">
-    <link rel="stylesheet" href="{{THEME}}/include/js/owl-carousel/owl.transitions.css">
-    <link rel="stylesheet" href="{{THEME}}/include/js/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="{{THEME}}/include/css/style.css">
+    <link rel="stylesheet" href="{{asset('include/css/normalize.css')}}">
+    <link rel="stylesheet" href="{{asset('include/js/owl-carousel/owl.transitions.css')}}">
+    <link rel="stylesheet" href="{{asset('include/js/owl-carousel/owl.carousel.css')}}">
+    <link rel="stylesheet" href="{{asset('include/css/style.css')}}">
 </head>
 
 <body style="background-image:url('{{UPLOAD.'/'.$set->sitebg}}')">

@@ -1,7 +1,7 @@
 @extends(ADMIN.'.index')
 
 @section('header')
-<link href="{{ADMINSTYLE}}/assets/plugins/icheck/skins/all.css" rel="stylesheet">
+<link href="{{asset('style')}}/assets/plugins/icheck/skins/all.css" rel="stylesheet">
 @stop
 
 
@@ -67,6 +67,6 @@
 @stop
 
 @section('footer')
-<script src="{{ADMINSTYLE}}//assets/plugins/icheck/icheck.min.js"></script>
-<script src="{{ADMINSTYLE}}//assets/plugins/icheck/icheck.init.js"></script>
+<script src="{{asset('style')}}/assets/plugins/icheck/icheck.min.js"></script>
+<script src="{{asset('style')}}/assets/plugins/icheck/icheck.init.js"></script>
 @stop

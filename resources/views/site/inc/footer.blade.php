@@ -24,19 +24,19 @@
         <div class="copy">
           جميع الحقوق محفوظة &copy; <a href="http://alfarisprojects.com/" target="_blank" style="color: rgb(153, 153, 153); font-family: dm;"> الفارس </a>
         </div><!-- copy -->
-         
+
       </div><!-- continer -->
     </footer>
-    
+
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="{{THEME}}/include/js/bootstrap.min.js"></script>
-    <script src="{{THEME}}/include/js/owl-carousel/owl.carousel.js"></script>
-    <script src="{{THEME}}/include/js/custom-owl.js"></script>
-    <script src="{{THEME}}/include/js/gpa.js"></script>
-    <script src="{{THEME}}/include/js/imageMapResizer.min.js"></script>
-    <script src="{{THEME}}/include/js/script.js"></script>
+    <script src="{{asset('include/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('include/js/owl-carousel/owl.carousel.js')}}"></script>
+    <script src="{{asset('include/js/custom-owl.js')}}"></script>
+    <script src="{{asset('include/js/gpa.js')}}"></script>
+    <script src="{{asset('include/js/imageMapResizer.min.js')}}"></script>
+    <script src="{{asset('include/js/script.js')}}"></script>
 @yield('footer')
 </body>
 

@@ -1,7 +1,7 @@
   @extends(ADMIN.'.index')
 
 @section('header')
-<link href="0/assets/plugins/css-chart/css-chart.css" rel="stylesheet">
+<link href="{{asset('style/assets/plugins/css-chart/css-chart.css')}}" rel="stylesheet">
 @stop
 
 @section('main')
